@@ -35,16 +35,17 @@ fetch(weatherApi)
         sunsetSunrise.innerHTML += `<div>Sunset: ${sunsetTime}</div>`;    
         if (weatherData.weather[0].description.includes("cloud")) {
             cloud.style.display = "block";
-            body.style.background = "white";
+            body.style.color = "white";
+
         } else if(weatherData.weather[0].description.includes("snow")) {
             cloud.style.display = "block";
-            body.style.background = BAD7E9;
+            body.style.background = "CadetBlue";
         } else if (weatherData.weather[0].description.includes("clear")) {
             sunglasses.style.display = "block";
            document.body.style.backgroundColor = "AntiqueWhite";
         } else if (weatherData.weather[0].description.includes("rain")) {
             umbrella.style.display = "block";
-           document.body.style.backgroundColor = "AntiqueWhite";
+           document.body.style.backgroundColor = "LightSkyBlue";
         }
 
     });
