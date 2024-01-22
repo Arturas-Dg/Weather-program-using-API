@@ -1,5 +1,5 @@
 const weatherApi =
-  "https://api.openweathermap.org/data/2.5/weather?q=madagascar&units=metric&APPID=ba39a634841efd509a1c7b07a0c59e68";
+  "https://api.openweathermap.org/data/2.5/weather?q=Stockholm&units=metric&APPID=ba39a634841efd509a1c7b07a0c59e68";
 const weatherForecast =
   "https://api.openweathermap.org/data/2.5/forecast?q=Stockholm,Sweden&units=metric&APPID=ba39a634841efd509a1c7b07a0c59e68";
 const temperatureDescription = document.getElementById("temp-description");
